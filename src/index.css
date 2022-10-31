@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 400px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Styling for the Info component*/
+
+.Info--profile-pic {
+  width: 100%;
+}
+
+.top-info {
+  text-align: center;
+}
+
+.Info--button-row {
+  display: flex;
+  justify-content: center;
+}
+
+.Info--button-row > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  height: 34px;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  margin: 0.4em
+}
+
+.About {
+  padding: 2em 2em 0em 2em;
+}
+
+.Interests {
+  padding: 0em 2em 2em 2em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
